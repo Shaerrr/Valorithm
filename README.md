@@ -17,10 +17,10 @@ AI 기술이 프로젝트 기획부터 개발, 플레이 환경 전반에 걸쳐
 
 ### AI 기능 설명
 
-- 🧠**AI 기능.1** : 프로젝트 기획 과정에서, **회의록 정리와 일정 리마인더를 도와주는 Discord MCP기반의 AI Agent**
-- 🌀**AI 기능.2** : 프로젝트 개발 과정에서, 무기의 총기 궤적을 **자연어 명령을 통해 생성하고 시각화해주는 MCP 기반의 AI Tool**
-- 🛠️**AI 기능.3** : 프로젝트 개발 과정에서, **2D 이미지 한장을 3D Mesh 맵으로 변경 생성**해주는 Web Server 기반의 AI Tool
-- 🎮**AI 기능.4** : 프로젝트 사용 과정에서, 유저를 위한 게임 설명, 규칙, 특징의 이해를 돕는 **LangGranph 기반의 AI Agent "Javis"**
+- 🧠**기능.1** : 프로젝트 기획 과정에서, **회의록 정리와 일정 리마인더를 도와주는 Discord MCP기반의 AI Agent**
+- 🌀**기능.2** : 프로젝트 개발 과정에서, 무기의 총기 궤적을 **자연어 명령을 통해 생성하고 시각화해주는 MCP 기반의 AI Tool**
+- 🛠️**기능.3** : 프로젝트 개발 과정에서, **2D 이미지 한장을 3D Mesh 맵으로 변경 생성**해주는 Web Server 기반의 AI Tool
+- 🎮**기능.4** : 프로젝트 사용 과정에서, 유저를 위한 게임 설명, 규칙, 특징의 이해를 돕는 **LangGranph 기반의 AI Agent "Javis"**
 
 - <a href="https://www.canva.com/design/DAGoJUcpX6I/U_m7ITH1VmmHDcPLT7uVIg/view?utm_content=DAGoJUcpX6I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf2c64f3906">프로젝트 프레젠테이션 자료</a>
 
@@ -64,8 +64,8 @@ AI 기술이 프로젝트 기획부터 개발, 플레이 환경 전반에 걸쳐
 
 ---
 
-### 🎮 LangGraph 기반 사용자용 AI 설명 Agent "Javis"  
-- 게임 내 AI 설명 도우미 캐릭터 역할  
+### 🎮 LangGraph 기반 사용자용 AI 설명 Agent "Javis" (진행 중)
+- 게임 내 게임 가이드, 규칙, 특징 등 AI 설명 도우미 역할  
 - LangGraph + RAG 기반으로 설계되어 멀티턴 대화 및 조건 분기 처리 가능  
 - 게임 내 규칙, 미션 설명, 캐릭터 능력 등 다양한 정보를 사용자 맞춤형으로 제공  
 - 외부 지식 소스를 연결하여 RAG 구조로 구성되며, ChromaDB에 벡터 저장  
