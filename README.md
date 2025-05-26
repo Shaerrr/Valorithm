@@ -48,6 +48,7 @@ AI 기술이 프로젝트 기획부터 개발, 플레이 환경 전반에 걸쳐
 - `Unreal MCP Plugin`을 통해 언리얼 엔진과의 연동 가능.
 - 연동이 완료되면 LLM 모델(ex. Claude)등을 통해 언리얼 에디터 상에서 직관적 사용 가능.
 - 🔗<a href="https://github.com/Hyeongseob91/mcp-server.git">Smithery.ai MCP Server GitHub</a>
+- 🔗<a href="https://smithery.ai/server/@Hyeongseob91/mcp-server">Smithery.ai MCP Server</a>
 - **Work FlowChart**
 ![무기 반동 궤적 생성 AI Tool](./assets/github_readme_image2.png)
 
