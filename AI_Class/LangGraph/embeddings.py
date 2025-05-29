@@ -9,7 +9,8 @@ import os
 load_dotenv()
 
 # 파일 로드
-loader = PyPDFLoader("AI_Class/hyeongseob/LangGraph/data/rag_data_valorant.pdf")
+file_path = r"C:\Wanted\원티드_포텐업_프로젝트\VALORITHM\VALORANT\AI_Class\LangGraph\data\rag_data_valorant.pdf"
+loader = PyPDFLoader(file_path)
 doc = loader.load()
 
 # 파일 분할
@@ -29,11 +30,13 @@ hf_embeddings = HuggingFaceEndpointEmbeddings(
 )
 
 # Chroma Vector DB
-vectorstore = Chroma.from_documents(
+def chroma_vectorstore():
+    vectorstore = Chroma.from_documents(
     documents=split_docs,
     embedding=hf_embeddings,
-    persist_directory="AI_Class/hyeongseob/LangGraph/vectorstore"
-)
+    persist_directory=r"C:\Wanted\원티드_포텐업_프로젝트\VALORITHM\VALORANT\AI_Class\LangGraph\vectorstore")
+
+    return vectorstore
 
 # Save on Local
-vectorstore.persist()
+vectorstore = chroma_vectorstore()
