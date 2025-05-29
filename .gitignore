@@ -77,3 +77,4 @@ DerivedDataCache/*
 /AI_Class/hyeongseob/FastAPI/__pycache__
 /AI_Class/hyeongseob/MCP/__pycache__
 /AI_Class/hyeongseob/Tests/__pycache__
+/AI_Class/hyeongseob/LangGraph/.env
