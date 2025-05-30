@@ -22,7 +22,7 @@ AI 기술이 프로젝트 기획부터 개발, 플레이 환경 전반에 걸쳐
 - 🛠️**기능.3** : 프로젝트 개발 과정에서, **2D 이미지 한장을 3D Mesh 맵으로 변경 생성**해주는 Web Server 기반의 AI Tool
 - 🎮**기능.4** : 프로젝트 사용 과정에서, 유저를 위한 게임 규칙, 설정의 이해를 돕는 **LangGraph 기반의 AI Agent "Javis"**
 
-- <a href="https://www.canva.com/design/DAGoyIL-jV0/1PR38idDAum69dSoPE7bJQ/view?utm_content=DAGoyIL-jV0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc39e7a520b">프로젝트 프레젠테이션 자료</a>
+- <a href="https://www.canva.com/design/DAGoJUcpX6I/U_m7ITH1VmmHDcPLT7uVIg/view?utm_content=DAGoJUcpX6I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf2c64f3906">프로젝트 프레젠테이션 자료</a>
 
 ---
 
@@ -70,7 +70,8 @@ AI 기술이 프로젝트 기획부터 개발, 플레이 환경 전반에 걸쳐
 - 게임 내 규칙, 미션 설명, 캐릭터 능력 등 다양한 정보를 사용자 맞춤형으로 제공  
 - 외부 지식 소스를 연결하여 RAG 구조로 구성되며, ChromaDB에 벡터 저장  
 - 향후 음성 입력 및 출력 기능도 포함될 예정  
-
+- **Work FlowChart**
+![LangGraph AI Agent](./assets/github_readme_image4.png)
 ---
 
 ## 3. 기술 스택
